@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/crixta/static/css/main.81210205.css",
+    "main.js": "/crixta/static/js/main.5b8b599b.js",
+    "static/js/787.505e8deb.chunk.js": "/crixta/static/js/787.505e8deb.chunk.js",
+    "static/media/LOOP.mp4": "/crixta/static/media/LOOP.5aaa572545e219740473.mp4",
+    "static/media/logo.png": "/crixta/static/media/logo.71f17808077338ace5d7.png",
+    "index.html": "/crixta/index.html",
+    "main.81210205.css.map": "/crixta/static/css/main.81210205.css.map",
+    "main.5b8b599b.js.map": "/crixta/static/js/main.5b8b599b.js.map",
+    "787.505e8deb.chunk.js.map": "/crixta/static/js/787.505e8deb.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.81210205.css",
+    "static/js/main.5b8b599b.js"
+  ]
+}
