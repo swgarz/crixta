@@ -9,7 +9,7 @@ const App = () => {
         <Hero.Header/>
         <Hero.Body>
             <Container textAlign={"center"}>                
-                <video  id="framevideo" src={video} width="22%" height="22%" autoPlay loop muted frameborder="0" y framespacing="0" />
+                <video  id="framevideo" src={video} width="22%" height="22%" autoPlay loop muted frameborder="0" y framespacing="0" playsinline="playsinline"/>
 
                 <Heading data-testid={'logo'}>
                     <img src={logo} alt="Crixta"/>
