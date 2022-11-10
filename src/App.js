@@ -9,10 +9,8 @@ const App = () => {
         <Hero.Header/>
         <Hero.Body>
             <Container textAlign={"center"}>                
-                {/* <video id="framevideo" src={video} width="22%" height="22%" autoPlay loop muted frameborder="0" y framespacing="0" playsinline/>  */}
-                <video autoplay loop muted >
-                    <source src="./media/LOOP.mp4" type="video/mp4" />
-                </video>
+                <video id="framevideo" src={video} width="22%" height="22%" autoplay="autoplay" loop muted frameborder="0" y framespacing="0" playsinline/> 
+               
                 <Heading data-testid={'logo'}>
                     <img src={logo} alt="Crixta"/>
                 </Heading>
