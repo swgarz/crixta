@@ -10,8 +10,12 @@ body{
 #framevideo{
     border: 1px solid #fafafa;
 }
+#crixtaletra{
+  width:22%;
+  height:22%;
+}
 @media only screen and (max-width: 600px) {
-    video {
+    img {
       width: 90%;
     }
   }

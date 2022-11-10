@@ -1,6 +1,6 @@
 import './App.css';
 import logo from './media/images/logo.png'
-import video from './media/LOOP.mp4'
+import video from './media/LOOP.gif'
 import {Container, Heading, Hero, Icon} from 'react-bulma-components'
 import React from "react";
 
@@ -9,8 +9,8 @@ const App = () => {
         <Hero.Header/>
         <Hero.Body>
             <Container textAlign={"center"}>                
-                <video  id="framevideo" src={video} width="22%" height="22%" autoPlay loop muted frameborder="0" y framespacing="0" playsinline="playsinline"/>
-
+                {/* <video  id="framevideo" src={video} width="22%" height="22%" autoPlay loop muted frameborder="0" y framespacing="0" playsinline="playsinline"/> */}
+                <img id="crixtaletra" src={video} alt="MDN"/>
                 <Heading data-testid={'logo'}>
                     <img src={logo} alt="Crixta"/>
                 </Heading>
